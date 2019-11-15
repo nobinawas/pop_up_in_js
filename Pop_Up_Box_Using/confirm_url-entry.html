@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Confirm Box - Entry in another URL By using JS</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+        function confirmTest()
+        {
+            var Con_Check = confirm("Are you want to enter our site?");
+            
+            if (Con_Check == true){
+                window.open('https://www.w3schools.com/');
+            }
+            else{
+                alert("You did not enter.");
+            }
+        }
+        </script>
+        <button onclick="confirmTest();">
+            Click Me
+        </button>
+    </body>
+</html>

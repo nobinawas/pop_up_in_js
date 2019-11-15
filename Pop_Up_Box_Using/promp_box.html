@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Uses Prompt Box</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+        function PrompTest(){
+            var x; 
+            var name = prompt("Please Enter Your Name","W3c");
+            if(name != null){
+                x = " Hello " +name+ "!";
+                document.getElementById("txtName").value = x;
+            }
+        }
+        </script>
+        <input type="text" name="" id="txtName">
+        <button onclick="PrompTest();">Click Me</button>
+    </body>
+</html>
